@@ -4,8 +4,11 @@
 // roughly 50 minutes later every single night.
 import { mkdirSync, writeFileSync } from "node:fs";
 
-const REVIEW =
-  "★☆☆☆☆ Rises 50 minutes later every single night and acts like that's normal. Zero time management. One star.";
+const PARTS = [
+  "★☆☆☆☆ Rises 50 minutes later every single night and acts like that's normal. ",
+  "Zero time management. One star.",
+];
+const REVIEW = PARTS.join("");
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", REVIEW, "utf8");
