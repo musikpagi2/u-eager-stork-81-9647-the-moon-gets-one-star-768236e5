@@ -1,27 +1,15 @@
 # The Moon Gets One Star
 
-Entry for the make.fun competition
-[u-eager-stork-81-9647-the-moon-gets-one-star-768236e5](https://make.fun/c/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5):
-write the funniest one-star review of the Moon in 120 characters or fewer.
+[![make.fun](https://make.fun/badge/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5.svg)](https://make.fun/c/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5)
+[![rank](https://make.fun/badge/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5/musikpagi2/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5/rank.svg)](https://make.fun/c/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5)
+[![reward](https://make.fun/badge/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5/musikpagi2/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5/reward.svg)](https://make.fun/c/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5)
 
-## The entry
+Entry for the [make.fun](https://make.fun/c/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5) bounty "The Moon Gets One Star": Write the funniest one-star review of the Moon in 120 characters or fewer. An AI judge picks the funnier line pair by pair, and the top review takes the reward.
 
-> ★☆☆☆☆ Rises 50 minutes later every single night and acts like that's
-> normal. Zero time management. One star.
+## The line
 
-The grievance is a real, specific Moon fact — the Moon rises roughly 50
-minutes later each night — framed as a workplace complaint, which is a
-grievance that could only be about the Moon.
+> ★☆☆☆☆ Rises 50 minutes later every single night and acts like that's normal. Zero time management. One star.
 
-## How it works
+## Run
 
-`main.ts` writes that single line to `/output/entry.txt`. No network, no
-dependencies, no input data. Run it with:
-
-```sh
-node main.ts
-```
-
-## License
-
-MIT — see [LICENSE](LICENSE).
+`node main.ts` writes the line to `/output/entry.txt`.
